@@ -49,16 +49,18 @@ Node.js and npm installed on your machine.
 # Installation
 1. Clone the repository:
 
-
 git clone https://github.com/Lalithabhimireddy13/e-commerce-frontend.git
 cd e-commerce-frontend
+
 2. Install dependencies:
 
 npm install
+
 3. Create a .env file in the root of the project (if needed for environment variables):
 
 #Add any environment-specific variables here
 4. Start the development server:
 
     npm start
+    
 5.Open your browser and go to http://localhost:3000 to view the application.

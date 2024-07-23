@@ -1,0 +1,52 @@
+.descriptionbox {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .description-navigator {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .descriptionbox-nav-box {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .descriptionbox-nav-box.fade {
+    color: #999;
+  }
+  
+  .descriptionbox-nav-box:not(.fade):hover {
+    background-color: #f0f0f0;
+  }
+  
+  .descriptionbox-description {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .descriptionbox-description p {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .descriptionbox {
+      padding: 15px;
+    }
+  
+    .descriptionbox-nav-box {
+      padding: 10px;
+      font-size: 0.9em;
+    }
+  
+    .descriptionbox-description {
+      font-size: 0.9em;
+    }
+  }
+  
